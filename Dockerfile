@@ -1,4 +1,4 @@
-FROM andatoshiki/gh2tg:1.3.9-linux-amd64
+FROM andatoshiki/gh2tg:0.0.1-linux-amd64
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
