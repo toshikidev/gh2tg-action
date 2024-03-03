@@ -6,4 +6,4 @@ export GITHUB="true"
 
 [ -n "$*" ] && export TELEGRAM_MESSAGE="$*"
 
-/bin/drone-telegram
+/bin/gh2tg
